@@ -46,7 +46,19 @@ button:hover {
 .etch-container {
     border: 3px solid #F0A202;
     border-radius: 8px;
-    width: 80%;
     margin: auto;
-    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    max-height:
+}
+
+.etch-square {
+    /* border: 3px solid #F0A202;
+    border-radius: 8px; */
+    /* flex-basis: calc(100%/16); */
+    /* border: 1px dotted white; */
+    box-sizing: border-box;
+    flex-shrink: 1;
+    aspect-ratio: 1/1;
 }
