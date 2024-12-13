@@ -2,6 +2,7 @@ const grid = document.querySelector('#etch-container');
 
 function createGrid(size) {
     // window.location.reload();
+    grid.style.display = 'flex';
 
     if (size < 16 || size > 100) {
         alert('Please input a number between 16 and 100');
