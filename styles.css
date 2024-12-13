@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+body {
+    background-color: #0E1428;
+    color: #F0A202;
+    font-family: "Silkscreen";
+    text-align: center;
+}
+
+p {
+    display: inline;
+}
+
+.controls {
+    font-size: 18px;
+    padding: 0.5em;
+}
+
+input {
+    background-color: #0E1428;
+    color: #F0A202;
+    border: 3px solid #F0A202;
+    border-radius: 8px;
+    font-size: inherit;
+    box-sizing: content-box;
+    padding: 0.25em 0.5em;
+    font-family: inherit;
+}
+
+button {
+    background: none;
+    color: #F0A202;
+    border: 3px solid #F0A202;
+    border-radius: 8px;
+    font-family: "Silkscreen";
+    font-size: inherit;
+    box-sizing: content-box;
+    padding: 0.25em 0.5em;
+}
+
+button:hover {
+    background-color: #25283D;
+}
+
+.etch-container {
+    border: 3px solid #F0A202;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    min-height: 600px;
+}
