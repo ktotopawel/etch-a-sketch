@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+:root {
+    --op: 0;
+}
 
 body {
     background-color: #0E1428;
@@ -44,7 +47,7 @@ button:hover {
 }
 
 .etch-container {
-    border: 3px solid #F0A202;
+    border: 5px solid #F18805;
     border-radius: 8px;
     margin: auto;
     display: flex;

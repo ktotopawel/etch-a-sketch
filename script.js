@@ -18,8 +18,11 @@ function createGrid(size) {
         gridItem.classList.add('etch-square');
         gridItem.style.cssText = `flex-basis: calc(100%/${size});`
         grid.appendChild(gridItem);
+        gridItem.style.opacity = '--op';
         gridItem.addEventListener('mouseover', () => {
-        gridItem.style.backgroundColor = '#F18805'
+            o = getComputedStyle(gridItem).getPropertyValue('--op');
+            gridItem.style.backgroundColor = `rgb(241, 136, 5, ${((o*10)+1)/10})`;
+            gridItem.style.setProperty('--op', ((o*10)+1)/10)
         })}
 }
 
